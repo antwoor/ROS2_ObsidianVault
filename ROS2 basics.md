@@ -3,6 +3,8 @@
 ![[Topic-MultiplePublisherandMultipleSubscriber.gif]]
 
 # Structure of workspace
+## Every ros based project must be a package inside some workspace
+
 
 ```
 workspace_folder/
@@ -26,7 +28,9 @@ workspace_folder/
           package.xml
           src/
 ```
-## [[Creating packages| package creation]]
+## To create a package see note [[Creating packages| package creation]]
 
 # [[Simulation of robots|Robot simulating]]
 Depends on [[Simulation of robots#URDF|URDF]] files - **Universal Robot Description Format**
+## After simulating or making a robot you should provide a [[ROS2 control|control system]] to it
+
